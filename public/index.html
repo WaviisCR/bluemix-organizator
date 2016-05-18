@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>IDEA Lab - Project </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link href='https://fonts.googleapis.com/css?family=Signika+Negative:400,300,600,700' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	    <link href="css/main.css" rel="stylesheet">
+	</head>
+	<body>
+		<header class="navbar">
+			<nav class="navbar navbar-default navbar-fixed-top">
+		      <div class="container-fluid">
+		        <div class="navbar-header">
+		          <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="pull-left navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand">Organizator</a>
+		        </div>
+		        <div id="navbar-collapse-1" class="collapse navbar-collapse">
+		          <ul class="nav navbar-nav navbar-right">
+		          	<li><a href="#">MY ACCOUNT	</a></li>
+		            <li><a href="schedule.html">SCHEDULE</a></li>
+		            <li><a href="todo.html">TO DO</a></li>
+		            <li><a href="myresources.html">MY RESOURCES</a></li>
+		            <li><a href="keep.html">KEEP</a></li>
+		          </ul>
+		        </div>
+		      </div>
+		    </nav>
+		</header>
+		<section id="items">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="schedule.html" class="item-home" id=" schedule-item">
+							<i class="fa fa-calendar fa-5x" aria-hidden="true"></i>
+							<p>My Schedule</p>
+						</a>
+						
+					</div>
+					
+					<div class="col-xs-6">
+						<a href="todo.html" id="todo-item" class="item-home">
+							<i class="fa fa-th-list fa-5x" aria-hidden="true"></i>
+							<p>To Do</p>
+						</a>
+						
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="myresources.html" id="work-item" class="item-home">
+							<i class="fa fa-briefcase fa-5x" aria-hidden="true"></i>	
+							<p>My Resources</p>
+						</a>
+					
+
+					</div>
+					<div class="col-xs-6">
+						<a href="keep.html" id="keep-item" class="item-home">
+							<i class="fa fa-sticky-note fa-5x" aria-hidden="true"></i>
+							<p>Keep</p>
+						</a>
+						
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section id="next-event" class="container-fluid">
+			<div class="container event">
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-2">
+						<a><i class="fa fa-exclamation-triangle fa-3x" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-xs-8">
+						<a href="schedule.html" id="event">
+							
+							<span id="title">Presentación proyecto</span>
+							<span id="date">11/05/2016</span>
+							<span id="time">20:00</span>
+							<span id="tags"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/jqBootstrapValidation.js"></script>
+	</body>
+</html>

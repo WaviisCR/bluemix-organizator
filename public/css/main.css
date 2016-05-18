@@ -1,0 +1,235 @@
+* {
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+body {
+	background-image: url(fondo.jpg);
+}
+/*Colores
+navy blue: #0e1626
+leather: #ab987a
+coral: #ff614d
+eggshell: #f5f3ef
+
+*/
+h1 {
+	color: #ab987a;
+	font-family: 'Signika Negative', sans-serif !important;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 30px;
+}
+h2 {
+	text-align: left;
+	color: #0e1626;
+	font-size: 20px;
+	font-weight: 700;
+	border-bottom: 2px solid #0e1626;
+	padding-bottom: 3px;
+	margin-bottom: 20px;
+}
+/*-----navbar----*/
+.navbar {
+	background-color:  #f5f3ef;
+}
+.navbar-toggle {
+	margin: 10px;
+	border: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #ff614d;
+	height: 3px;
+	width: 22px;
+}
+.navbar-default .navbar-brand {
+	color: #0e1626;
+	font-family: 'Signika Negative', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-top: 3px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ab987a;
+	font-family: 'Signika Negative', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 30px;
+	text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a:focus {
+	text-decoration: none;
+}
+/*----------Home----------*/
+#items {
+	padding-top: 40px;
+}
+#items .col-xs-6{
+	text-align:center;
+}
+.item-home {
+	width: 100px;
+	height: 100px;
+	margin: 0 0 20px;
+	padding: 20px 0;
+	border-radius: 5px;
+	background-color: #ff614d;
+	display: inline-block;
+	
+}
+.item-home i{
+	display: inline-block;
+	color: #0e1626;
+	font-size: 60px;
+}
+.item-home p {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#next-event {
+	text-align: center;
+	padding-top: 30px;
+}
+.col-xs-2{
+	text-align:center;
+}
+#next-event i {
+	color: #ff614d;
+}
+
+.event{
+	margin:15px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #ab987a;
+}
+#event {
+	text-decoration: none;
+	color: #0e1626;
+	font-size: 16px;
+}
+/*-----To do*/
+#todo-app {
+	padding: 20px;
+}
+.textarea-row {
+	padding-bottom: 10%;
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto 30px;
+}
+textarea {
+	max-width: 600px;
+	width: 80%;
+	margin: 20px auto 10px;
+	border: none;
+	border-bottom: 1px solid #ab987a;
+	background-color: #f5f3ef;
+	outline: none;
+ 	resize: none !important;
+ 	font-family: 'PT Sans', sans-serif;
+ 	font-size: 16px;
+ 	padding: 10px 10px 0 10px;
+	font-size: 14px;
+	float: left;
+}
+#tareasButton {
+	background-color: transparent;
+	border: none;
+	color: #ff614d;
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	width: 15px;
+	margin-top: 24px;
+}
+
+#listaTareas {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.remove {
+	border: none;
+	color: #ff614d;
+	font-weight: bold;
+	font-size: 24px;
+	background-color: transparent;
+	margin: 10px auto 0;
+}
+#listaTareas li{
+	width: 80%;
+	border-radius: 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	background-color: #ff614d;
+	padding: 3px 10px;
+	margin-bottom: 7px;
+}
+.input-check {
+	display:inline-block;
+	padding: 1%;
+	margin: 1%;
+}
+.sTarea {
+	display: inline-block;
+	padding-left: 10px;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+}
+.fa-trash {
+	float: right;
+}
+/*-----------My resources----------*/
+#mydocs a {
+	text-decoration: none;
+	width: 50%;
+	height: 60px;
+	display: block;
+}
+#mydocs i {
+	color: #ab987a;
+	margin-bottom: 10px;
+	font-size: 50px;
+	display: inline-block;
+	float: left;
+}
+#mydocs span {
+	color: #ff614d;
+	font-size: 24px;
+	font-weight: 700;
+	display: inline-block;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.image {
+	display: inline-block;
+	margin-right: 5px;
+}
+.image img {
+	width: 70px;
+	height: 70px;
+}
+/*--------------Keep-------------*/
+#keep-section {
+	margin: 80px 20px;
+	padding-right: 40px;
+}
+#keep-section h4 {
+	color: #ff614d;
+	font-weight: 700;
+}
+#keep-section ul {
+	background-color: rgba(245, 243, 239, 0.8);
+	padding: 10px 10px 10px 30px;
+}
+#keep-section i {
+	color: #0e1626;
+}
+#keep-section a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #0e1626;
+}
